@@ -1,9 +1,5 @@
 # Asset Lifecycle Management Service
-
-## Team Member
-- Baharudin Afif / 13511021
-- Edmund Ophie / 13512095
-- Muhammad Husain Jakfari /13512067
+A simple service for asset management using SOAP
 
 ## Deskripsi Service
 Asset Lifecycle Management Service menyediakan layanan registrasi aset, pemantauan aset, permintaan pengecekan asset hingga permintaan pembelian aset baru.
@@ -24,7 +20,7 @@ Asset Lifecycle Management Service menyediakan layanan registrasi aset, pemantau
  - Mysql
  
 ## How to Build The Service
-*Prerequisite: Go to `/data` folder and import `assetamanagementdb.sql` to your MySQL*
+**Prerequirement: from the`/data` folder, import `assetamanagementdb.sql` to your MySQL**
 
 1. Go to `/src` folder in terminal
 2. Resolve maven dependency  
@@ -58,3 +54,8 @@ Asset Lifecycle Management Service menyediakan layanan registrasi aset, pemantau
 	 $ java -cp target/asset-lifecycle-management-service-client-1.0.jar org.informatika.service.client.TestClient
      ```
 3. The test client is ready. You can now test the service by selecting the method you want
+
+## Team Member
+- Baharudin Afif / 13511021
+- Edmund Ophie / 13512095
+- Muhammad Husain Jakfari /13512067
